@@ -1,0 +1,13 @@
+[project]
+name = "inceptionv1-circuits"
+version = "0.1.0"
+description = "Feature visualization, dropout and top-down circuit pruning on Lucid's InceptionV1"
+requires-python = ">=3.10"
+dependencies = ["torch", "torchvision", "pillow", "torch-lucent==0.1.8"]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

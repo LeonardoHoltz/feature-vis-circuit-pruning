@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+.pytest_cache/
+# Generated images (scripts write them to the working directory)
+*.png
